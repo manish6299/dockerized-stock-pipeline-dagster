@@ -143,15 +143,15 @@ docker-compose down
 
 ---
 
-## output of the 
-
-<img width="951" height="463" alt="image5" src="https://github.com/user-attachments/assets/a6b6d3a6-c045-435a-93fc-d27e6b5ded43" />
-<img width="757" height="463" alt="image4" src="https://github.com/user-attachments/assets/28833255-ac78-459d-bfb7-6b841d73f4b4" />
-<img width="951" height="536" alt="image3" src="https://github.com/user-attachments/assets/f70a51f4-08a2-446b-9612-24910a2e703b" />
-<img width="960" height="327" alt="image2" src="https://github.com/user-attachments/assets/8ac6f5c4-819b-45b3-a222-ebb4b38ef403" />
+## Output 
 <img width="960" height="382" alt="image1" src="https://github.com/user-attachments/assets/9c2d3c9c-866d-44ca-af07-d62ed45b84ba" />
-<img width="731" height="314" alt="database" src="https://github.com/user-attachments/assets/d95bbc01-08c0-4449-b75c-d45ef043bc6c" />
+<img width="960" height="327" alt="image2" src="https://github.com/user-attachments/assets/8ac6f5c4-819b-45b3-a222-ebb4b38ef403" />
+<img width="951" height="536" alt="image3" src="https://github.com/user-attachments/assets/f70a51f4-08a2-446b-9612-24910a2e703b" />
+<img width="757" height="463" alt="image4" src="https://github.com/user-attachments/assets/28833255-ac78-459d-bfb7-6b841d73f4b4" />
+<img width="951" height="463" alt="image5" src="https://github.com/user-attachments/assets/a6b6d3a6-c045-435a-93fc-d27e6b5ded43" />
 <img width="819" height="249" alt="container" src="https://github.com/user-attachments/assets/21a9013d-d6bc-4250-b50e-93d72d8a8eeb" />
+<img width="731" height="314" alt="database" src="https://github.com/user-attachments/assets/d95bbc01-08c0-4449-b75c-d45ef043bc6c" />
+
 
 
 ## 📬 Author
