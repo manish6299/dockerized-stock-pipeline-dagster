@@ -30,17 +30,27 @@ project/
 ├── Dockerfile                # Builds the Dagster service
 ├── docker-compose.yml        # Defines Dagster + Postgres services
 ├── requirements.txt          # Python dependencies
-└── README.md                 # You're here!
+└── README.md
+|__ workspace.yaml
+|__ myproject.toml               # You're here!
 ```
 
 ---
 
 ## 🧪 Requirements
 
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
+- To build and run this project, you’ll need the following installed:
 
----
+- Docker Destop – containerization platform
+
+- Docker Compose – for managing multi-container Docker apps
+
+- Python 3.10+ – for running scripts locally (if needed outside Docker)
+
+- pgAdmin – optional, for managing and inspecting the PostgreSQL database via GUI
+
+---<img width="951" height="463" alt="image5" src="https://github.com/user-attachments/assets/cbe9a97c-eebc-48fa-a047-f9ca8f755758" />
+
 
 ## ⚙️ Setup & Run
 
