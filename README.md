@@ -23,7 +23,8 @@ project/
 │
 ├── dagster_pipeline/
 │   ├── repository.py         # Dagster repository definition
-│   └── ops.py                # Data fetching and storing ops
+│   └── ops.py               # fetch the data and save into database 
+|   |__ jobs.py           # Data fetching and storing ops
 │
 ├── .env                      # Secrets & configuration
 ├── Dockerfile                # Builds the Dagster service
@@ -55,7 +56,7 @@ cd project
 ```env
 # .env
 POSTGRES_USER=stockuser
-POSTGRES_PASSWORD=6299
+POSTGRES_PASSWORD="your password"
 POSTGRES_DB=stockdb
 POSTGRES_HOST=postgres
 POSTGRES_PORT=5432
@@ -134,6 +135,6 @@ docker-compose down
 
 ## 📬 Author
 
-- **Your Name** – *Data Engineering Assignment*
+- **Your Name** – *Manish kumar Yadav *
 
 
