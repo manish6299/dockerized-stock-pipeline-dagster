@@ -1,0 +1,6 @@
+
+dagster
+dagster-webserver
+yfinance
+psycopg2-binary
+python-dotenv

@@ -1,0 +1,9 @@
+2025-08-08 11:20:06 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - 1017 - LOGS_CAPTURED - Started capturing logs in process (pid: 1017).
+2025-08-08 11:20:06 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - 1017 - store_to_postgres - STEP_START - Started execution of step "store_to_postgres".
+2025-08-08 11:20:06 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - store_to_postgres - Loading file from: /app/.tmp_dagster_home_pvpk84c3/storage/b0142093-e7fb-421b-ae7d-67aa39b3347c/fetch_stock_data/result using PickledObjectFilesystemIOManager...
+2025-08-08 11:20:06 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - 1017 - store_to_postgres - LOADED_INPUT - Loaded input "stock_data" using input manager "io_manager", from output "result" of step "fetch_stock_data"
+2025-08-08 11:20:06 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - 1017 - store_to_postgres - STEP_INPUT - Got input "stock_data" of type "Any". (Type check passed).
+2025-08-08 11:20:06 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - 1017 - store_to_postgres - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2025-08-08 11:20:06 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - store_to_postgres - Writing file at: /app/.tmp_dagster_home_pvpk84c3/storage/b0142093-e7fb-421b-ae7d-67aa39b3347c/store_to_postgres/result using PickledObjectFilesystemIOManager...
+2025-08-08 11:20:06 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - 1017 - store_to_postgres - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2025-08-08 11:20:07 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - 1017 - store_to_postgres - STEP_SUCCESS - Finished execution of step "store_to_postgres" in 399ms.

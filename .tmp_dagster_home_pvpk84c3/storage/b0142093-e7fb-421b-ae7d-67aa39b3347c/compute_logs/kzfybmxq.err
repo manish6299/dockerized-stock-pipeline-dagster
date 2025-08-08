@@ -1,0 +1,6 @@
+2025-08-08 11:20:01 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - 877 - LOGS_CAPTURED - Started capturing logs in process (pid: 877).
+2025-08-08 11:20:01 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - 877 - fetch_stock_data - STEP_START - Started execution of step "fetch_stock_data".
+2025-08-08 11:20:02 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - 877 - fetch_stock_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2025-08-08 11:20:02 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - fetch_stock_data - Writing file at: /app/.tmp_dagster_home_pvpk84c3/storage/b0142093-e7fb-421b-ae7d-67aa39b3347c/fetch_stock_data/result using PickledObjectFilesystemIOManager...
+2025-08-08 11:20:02 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - 877 - fetch_stock_data - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2025-08-08 11:20:03 +0000 - dagster - DEBUG - stock_job - b0142093-e7fb-421b-ae7d-67aa39b3347c - 877 - fetch_stock_data - STEP_SUCCESS - Finished execution of step "fetch_stock_data" in 1.18s.
