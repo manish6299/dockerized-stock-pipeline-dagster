@@ -156,6 +156,6 @@ docker-compose down
 
 ## 📬 Author
 
-- **Your Name** – *Manish kumar Yadav *
+- **Your Name** – *Manish kumar Yadav*
 
 
