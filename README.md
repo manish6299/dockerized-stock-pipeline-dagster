@@ -163,7 +163,8 @@ docker-compose down
 <img width="953" height="471" alt="image6 png" src="https://github.com/user-attachments/assets/5e262130-f339-4fb6-abfa-83154384671b" />
 
 <img width="819" height="249" alt="container" src="https://github.com/user-attachments/assets/21a9013d-d6bc-4250-b50e-93d72d8a8eeb" />
-<img width="731" height="314" alt="database" src="https://github.com/user-attachments/assets/d95bbc01-08c0-4449-b75c-d45ef043bc6c" />
+<img width="940" height="407" alt="{0781ADEB-C75E-4D8B-AFD8-0A92847B4B6C}" src="https://github.com/user-attachments/assets/2b54e9f0-d680-4f46-bed5-7afb4b799876" />
+
 
 
 
