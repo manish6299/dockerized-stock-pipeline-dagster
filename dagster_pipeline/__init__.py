@@ -1,9 +1,9 @@
-# dagster_pipeline/__init__.py
-
 from dagster import Definitions
 from dagster_pipeline.jobs import stock_job
- # Or your actual job name
+from dagster_pipeline.repository import stock_schedule
 
+# Dagster Definitions
 defs = Definitions(
     jobs=[stock_job],
+    schedules=[stock_schedule],  # Schedule to run every 2 hours
 )
