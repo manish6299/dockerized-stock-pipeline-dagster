@@ -1,9 +1,23 @@
 
 # 📈 Dockerized Stock Data Pipeline using Dagster & PostgreSQL
 
-This project implements a data pipeline using **Dagster** for orchestration and **PostgreSQL** for storage. It fetches stock market data from **Yahoo Finance (via `yfinance`)**, parses it, and stores it in a PostgreSQL database.
+This project implements a **fully containerized, automated, and extendable stock market data pipeline** using **Dagster** for orchestration and **PostgreSQL** for persistent storage.  
+
+The pipeline fetches **real-time stock market data** from **Yahoo Finance** (via the `yfinance` Python package), validates and processes it, performs statistical analysis, and stores the results in a **PostgreSQL** database. It also generates CSV, JSON, and HTML reports, with optional alerting for significant market changes.
+
+The entire system runs seamlessly inside **Docker** using **Docker Compose**, meaning no local Python or PostgreSQL installation is required.  
+
+Key capabilities include:  
+- **Automated scheduling** — runs every 2 hours without manual intervention  
+- **Multiple output formats** — CSV, JSON, and HTML  
+- **Database backup & recovery** — ensures no data loss  
+- **Alerting system** — sends notifications on key market events  
+- **Environment-based configuration** — secrets and settings in `.env`  
+- **Scalable modular design** — easy to add new data sources, transformations, or alerts  
+- **Production-ready** — robust error handling, retry logic, and logging
 
 ---
+
 
 ## 🚀 Features
 
