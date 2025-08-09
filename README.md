@@ -7,12 +7,24 @@ This project implements a data pipeline using **Dagster** for orchestration and 
 
 ## 🚀 Features
 
-- ✅ Uses **Dagster** for pipeline orchestration
-- ✅ Fetches stock data (default: AAPL) via **Yahoo Finance API**
-- ✅ Stores data in a **PostgreSQL** database
-- ✅ Uses **Docker Compose** for end-to-end containerization
-- ✅ Robust error handling and retry logic
-- ✅ Secrets managed via `.env` file
+- ✅ **Dagster** for modular and maintainable pipeline orchestration  
+- ✅ **Automated schedule** — runs every 2 hours via Dagster scheduler  
+- ✅ **Fetch stock data** from **Yahoo Finance API** (default: AAPL)  
+- ✅ **Validate stock data** to ensure correctness before processing  
+- ✅ **Normalize data** into a consistent format  
+- ✅ **Analyze stock data** — calculate price changes & insights  
+- ✅ **Log data to CSV** for local record-keeping  
+- ✅ **Summarize stock data** for quick insights  
+- ✅ **Send alerts** (e.g., significant price changes)  
+- ✅ **Store results** in **PostgreSQL** with upsert logic  
+- ✅ **Export results to JSON** for API or sharing  
+- ✅ **Generate HTML reports** for human-friendly review  
+- ✅ **Backup PostgreSQL database** automatically before new runs  
+- ✅ **Environment variables** managed securely via `.env` file  
+- ✅ **Docker Compose** setup — runs PostgreSQL + Dagster webserver  
+- ✅ **Database auto-creation** if it doesn't exist  
+- ✅ **Fully containerized** — no local Python/PostgreSQL setup needed  
+- ✅ **Scalable architecture** — easy to add new data sources or steps  
 
 ---
 
